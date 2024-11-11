@@ -686,7 +686,7 @@ h1 {
 
         <div class="user-form-section">
             <div class="grid-item case28">CRÉATION</div>
-            <input type="text" id="userEmail2" placeholder="Nom d'utilisateur (ex : PrénomNom) - Doit être unique" required>
+            <input type="text" id="userEmail2" placeholder="Nom d'utilisateur (ex : PrénomNom) - Doit être unique" required oninput="this.value = this.value.toLowerCase()">
             <input type="password" id="userPassword" placeholder="Mot de passe" required>
           <input type="password" id="userPassword2" placeholder="Confirmer le mot de passe" required>
           
